@@ -6,6 +6,7 @@ public class Stock {
     }
 
     public void sortir(int n) {
+        if (n > quantite) { throw new IllegalArgumentException("stock insuffisant"); }
         quantite -= n;
     }
 
