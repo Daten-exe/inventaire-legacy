@@ -1,0 +1,24 @@
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+
+# Compilation Java
+target/
+out/
+*.class
+
+# Sauvegardes et fichiers temporaires d'éditeur
+*.bak
+*.tmp
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Systèmes
+.DS_Store
+Thumbs.db
