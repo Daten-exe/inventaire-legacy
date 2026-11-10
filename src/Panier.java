@@ -6,7 +6,7 @@ public class Panier {
     }
 
     public double totalTtc() {
-        return total * 1.20;
+        return total * 1.055;
     }
 
     public static void main(String[] args) {
