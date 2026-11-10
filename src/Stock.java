@@ -14,3 +14,4 @@ public class Stock {
         return quantite;
     }
 }
+// essai
